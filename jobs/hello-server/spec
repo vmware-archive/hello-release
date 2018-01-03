@@ -1,0 +1,13 @@
+---
+name: hello-server
+
+templates:
+  ctl.erb: bin/ctl
+
+packages:
+- hello-server
+
+properties:
+  server.port:
+    description: "Port server will listen to"
+    default: 8080

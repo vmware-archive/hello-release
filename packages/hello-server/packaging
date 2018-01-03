@@ -1,0 +1,3 @@
+set -e
+
+cp -a hello-server/index.html $BOSH_INSTALL_TARGET

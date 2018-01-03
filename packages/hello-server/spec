@@ -1,0 +1,7 @@
+---
+name: hello-server
+
+dependencies: []
+
+files:
+- hello-server/index.html
